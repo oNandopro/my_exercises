@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 780px) and (max-width: 992px) {
+    
+    section {
+
+        max-width: 70vw;
+        transition: width .3s, heigth .3s;
+        transition-timing-function: ease;
+
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    section {
+
+        max-width: 60vw;
+
+    }
+    
+}

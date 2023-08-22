@@ -4,7 +4,7 @@ function carregar() {
     var msgdia = document.getElementById('msg')
     var data = new Date()
     var horaatu = data.getHours()
-    //var horaatu =
+    //var horaatu = 22
     hora.innerHTML = (`Agora são ${horaatu} horas e poucos minutos!`)
     if (horaatu >=6 && horaatu <=12) {
         document.body.style.backgroundColor = '#dbcd00'
@@ -17,6 +17,7 @@ function carregar() {
     } else {
         document.body.style.backgroundColor = '#232324'
         img.src = 'imagens/noite.png'
+        msgdia.innerHTML ='<p> Boa Noite!</p>'
     }
 
 }

@@ -35,15 +35,18 @@ section {
     font-size: 1.8em;
 }
 section div#hora {
-    padding-top: 30px;
+    padding-top: 25px;
 }
-section div#img {
-    padding-top: 10px;
+section div#foto {
+    padding-top: 25px;
+}
+section div#msg {
+    padding-top: 20px;
 }
 footer {
     margin: auto;
     width: 95vw;
-    height: 80px;
+    height: 164px;
     text-align: center;
     line-height: 20px;
     color: white;
