@@ -1,6 +1,10 @@
 function carregar() {
-    
-
+    var msghora = window.document.getElementById('hora')
+    var img = window.document.getElementById('img')
+    var msgdia = window.document.getElementById('msg')
+    var data = new Date()
+    var horaatu = data.getHours()
+    msghora.innerHTML = `Agora são ${horaatu} horas e alguns minutos!`
 
 }
 
