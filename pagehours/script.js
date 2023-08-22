@@ -1,4 +1,8 @@
-window.alert('Script ok')
+function carregar() {
+    
+
+
+}
 
 /* CORES:
     bom dia  : '#dbcd00'
