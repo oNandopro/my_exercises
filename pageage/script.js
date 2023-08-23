@@ -11,29 +11,29 @@ function Verificar() {
         var genero = ''
         if (sexusu [0].checked) {
             genero = 'Homem'
-            if (idade >=1 && idade <=7) {
+            if (idade >=0 && idade <7) {
                 img.src= 'imagens/bebe-m.png'
-            } else if (idade <21) {
+            } else if (idade <=21) {
                 img.src= 'imagens/jovem-m.png'
             } else if (idade <61) {
-                img.src= 'imagens/adulto-m'
+                img.src= 'imagens/adulto-m.png'
             } else {
                 img.src= 'imagens/idoso-m.png'
             }    
         } else if (sexusu[1].checked){
             genero = 'Mulher'
-            if (idade >=1 && idade <7) {
+            if (idade >=0 && idade <7) {
                 img.src= 'imagens/bebe-f.png'
-            } else if (idade <21) {
+            } else if (idade <=21) {
                 img.src= 'imagens/jovem-f.png'
-            } else if (idade <61) {
-                img.src= 'imagens/adulto-m.png'
+            } else if (idade <=61) {
+                img.src= 'imagens/adulto-f.png'
             } else {
                 img.src= 'imagens/idoso-f.png'
             }
 
         }
 
-        res.innerHTML=(`Indetificamos que você é ${genero} de ${idade} anos!`)
+        res.innerHTML=`Indetificamos que você é ${genero} de ${idade} anos!`
     }
 }
