@@ -36,7 +36,7 @@ section {
     line-height: 30px;
     font-size: 1.4em;
 }
-section input#nas {
+section input#nasusu {
     width: 100px;
     height: 20px;
     font-size: 0.7em;
@@ -60,7 +60,7 @@ section input#but:hover {
 footer {
     margin: auto;
     width: 95vw;
-    height: 117px;
+    height: 121px;
     text-align: center;
     line-height: 20px;
     color: white;
